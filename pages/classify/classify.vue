@@ -45,7 +45,7 @@
 		onLoad: function () {
 			this.height = uni.getSystemInfoSync().windowHeight - this.tabBarHeight;
 		},
-		onReady() {
+		updated() {
 			this.getHeightList();
 		},
 		methods: {
